@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>hackathon assignment</title>
+</head>
+<body>
+    <h1>This is a blue Heading.</h1>
+    <p>This is a green paragraph</p>
+    <a href="https://www.wikipedia.org/" target="_blank" visit wikipedia.com></a>
+
+
+    <section id="image-container">
+<img src="nature.1.jpg" height="500" width="500" alt="sample image">
+    </section>
+
+<section>
+ <h2>Registration Form</h2>
+ <form id="registrationForm">
+   <label>Name:</label><br>
+   <input type="text" name="name" required><br><br>
+
+   <label>Email Address:</label><br>
+   <input type="email" name="email" required><br><br>
+
+   <label>Phone Number:</label><br>
+   <input type="tel" name="phone" required><br><br>
+
+   <label>Age:</label><br>
+   <input type="number" name="age" required><br><br>
+
+   <label>Gender:</label><br>
+   <input type="radio" name="gender" value="male"> Male
+   <input type="radio" name="gender" value="female"> Female
+   <input type="radio" name="gender" value="other"> Other<br><br>
+
+   <label>Subjects:</label><br>
+   <select name="subjects[]" multiple required>
+     <option value="English">English</option>
+     <option value="Math">Math</option>
+     <option value="Science">Science</option>
+     <option value="Art and Craft">Art and Craft</option>
+     <option value="Agriculture">Agriculture</option>
+     <option value="Geography">Geography</option>
+     <option value="History">History</option>
+   </select><br><br>
+
+   <label>Password:</label><br>
+   <input type="password" name="password" required><br><br>
+
+   <input type="hidden" name="sessionId" value="your_session_id_here">
+
+   <button type="reset">Cancel</button>
+   <button type="submit">Register</button>
+ </form>
+</section>
+</body>
+</html>
