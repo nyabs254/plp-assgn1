@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <form action="#" method="get" enctype="application/x-www-form-urlencoded">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="john doe"
+        required
+      />
+      <br />
+      <label for="mobile">mobile number</label>
+      <input
+        type="number"
+        name="mobile"
+        id="mobile"
+        placeholder="123456778"
+        required
+      />
+      <br />
+      <label for="email">Email Address</label>
+      <input
+        type="email"
+        id="email_address"
+        name="email_address"
+        placeholder="john@gmail,com"
+      />
+      <br />
+      <label for="password">password</label>
+      <input type="password" name="password" id="password" />
+      <br />
+      <p>Choose the subject you love most</p>
+      <label for="english">English</label>
+      <input type="checkbox" id="english" value="english" name="english" />
+      <br />
+      <label for="math">Math</label>
+      <input type="checkbox" id="math" value="math" name="math" />
+      <br />
+      <input type="hidden" id="token" value="hjk" />
+      <input type="reset" id="reset" name="reset" value="reset" />
+      <br />
+      <input type="submit" id="submit" name="submit" value="submit" />
+    </form>
+  </body>
+</html>
